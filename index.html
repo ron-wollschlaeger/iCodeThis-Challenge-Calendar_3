@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCodeThis - Challenge: Calendar 3</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="calendar__container">
+        <div class="calendar">
+            <div class="calendar__date">
+                <div class="calendar__day">Mon</div>
+                <div class="calendar__day">Tue</div>
+                <div class="calendar__day">Wed</div>
+                <div class="calendar__day">Thur</div>
+                <div class="calendar__day">Fri</div>
+                <div class="calendar__day">Sat</div>
+                <div class="calendar__day">Sun</div>
+                <div class="calendar__number"></div>
+                <div class="calendar__number"></div>
+                <div class="calendar__number"></div>
+                <div class="calendar__number">1</div>
+                <div class="calendar__number">2</div>
+                <div class="calendar__number">3</div>
+                <div class="calendar__number">4</div>
+                <div class="calendar__number">5</div>
+                <div class="calendar__number calendar__number--event">6</div>
+                <div class="calendar__number">7</div>
+                <div class="calendar__number">8</div>
+                <div class="calendar__number">9</div>
+                <div class="calendar__number calendar__number--event">10</div>
+                <div class="calendar__number">11</div>
+                <div class="calendar__number">12</div>
+                <div class="calendar__number">13</div>
+                <div class="calendar__number">14</div>
+                <div class="calendar__number">15</div>
+                <div class="calendar__number calendar__number--current">16</div>
+                <div class="calendar__number">17</div>
+                <div class="calendar__number">18</div>
+                <div class="calendar__number">19</div>
+                <div class="calendar__number">20</div>
+                <div class="calendar__number calendar__number--event">21</div>
+                <div class="calendar__number">22</div>
+                <div class="calendar__number">23</div>
+                <div class="calendar__number">24</div>
+                <div class="calendar__number">25</div>
+                <div class="calendar__number calendar__number--event">26</div>
+                <div class="calendar__number">27</div>
+                <div class="calendar__number">28</div>
+                <div class="calendar__number">29</div>
+                <div class="calendar__number">30</div>
+            </div>
+        </div>
+
+        <div class="calendar__infos">
+            <header class="calendar__title">
+                <h1>Events of the Month</h1>
+            </header>
+            <div class="calendar__event-list">
+                <div class="calendar__event">
+                    <div class="calendar__event__item">
+                        <div class="calender__event__text">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="32" height="32"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3"></path>
+                            </svg>
+                            <div>
+                                <h2>Dinner with Dad</h2>
+                                <p>Tue 6 12:00 pm</p>
+                            </div>
+                        </div>
+
+                        <div class="calendar__event__buttons">
+                            <button class="btn-edit">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
+                                    <path d="M13.5 6.5l4 4"></path>
+                                </svg>
+                            </button>
+                            <button class="btn-delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 7l16 0"></path>
+                                    <path d="M10 11l0 6"></path>
+                                    <path d="M14 11l0 6"></path>
+                                    <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                    <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="calendar__event__item">
+                        <div class="calender__event__text">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="32" height="32"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M17 17h-11v-14h-2"></path>
+                                <path d="M6 5l14 1l-1 7h-13"></path>
+                            </svg>
+                            <div>
+                                <h2>Pay phone bills</h2>
+                                <p>Sat 10 04:00 pm</p>
+                            </div>
+                        </div>
+
+                        <div class="calendar__event__buttons">
+                            <button class="btn-edit">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
+                                    <path d="M13.5 6.5l4 4"></path>
+                                </svg>
+                            </button>
+                            <button class="btn-delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 7l16 0"></path>
+                                    <path d="M10 11l0 6"></path>
+                                    <path d="M14 11l0 6"></path>
+                                    <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                    <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="calendar__event__item">
+                        <div class="calender__event__text">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="32" height="32"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                            </svg>
+                            <div>
+                                <h2>Special day :)</h2>
+                                <p>Wed 21 08:00 am</p>
+                            </div>
+                        </div>
+
+                        <div class="calendar__event__buttons">
+                            <button class="btn-edit">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
+                                    <path d="M13.5 6.5l4 4"></path>
+                                </svg>
+                            </button>
+                            <button class="btn-delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 7l16 0"></path>
+                                    <path d="M10 11l0 6"></path>
+                                    <path d="M14 11l0 6"></path>
+                                    <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                    <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="calendar__event__item">
+                        <div class="calender__event__text">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-friends" width="32" height="32"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5"></path>
+                                <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                                <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4"></path>
+                            </svg>
+                            <div>
+                                <h2>Meeting with John</h2>
+                                <p>Mon26 04:00 pm</p>
+                            </div>
+                        </div>
+
+                        <div class="calendar__event__buttons">
+                            <button class="btn-edit">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
+                                    <path d="M13.5 6.5l4 4"></path>
+                                </svg>
+                            </button>
+                            <button class="btn-delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 7l16 0"></path>
+                                    <path d="M10 11l0 6"></path>
+                                    <path d="M14 11l0 6"></path>
+                                    <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                    <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-add-event">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 5l0 14"></path>
+                    <path d="M5 12l14 0"></path>
+                    </svg>
+                    Add event
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
